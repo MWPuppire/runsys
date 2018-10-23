@@ -1,0 +1,25 @@
+{
+  "name": "runsys",
+  "version": "1.0.0",
+  "description": "A package for running system commands and whatnot.",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mwpuppire/runsys"
+  },
+  "author": "MWPuppire <mwpuppire@outlook.com>",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/mwpuppire/runsys/issues"
+  },
+  "homepage": "https://github.com/mwpuppire/runsys",
+  "dependencies": {
+    "bindings": "^1.3.0",
+    "nan": "^2.11.1",
+    "node-gyp": "^3.8.0"
+  }
+}
